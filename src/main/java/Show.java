@@ -44,7 +44,7 @@ public class Show {
 
 
     private void initialize() {
-        frame = new JFrame();
+        frame = new JFrame("Решение табличным симплекс методом");
         frame.setBounds(100, 100, 436, 436);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
@@ -81,7 +81,7 @@ public class Show {
         label_1.setBounds(10, 295, 86, 23);
         frame.getContentPane().add(label_1);
 
-        JLabel label_2 = new JLabel("Примем: 1 15 max");
+        JLabel label_2 = new JLabel("Примем: -2 40 max");
         label_2.setFont(new Font("Tahoma", Font.PLAIN, 18));
         label_2.setBounds(79, 294, 193, 23);
         frame.getContentPane().add(label_2);
@@ -101,7 +101,7 @@ public class Show {
         label_3.setBounds(10, 81, 86, 20);
         frame.getContentPane().add(label_3);
 
-        JLabel label_4 = new JLabel("Пример: 5 15 <= 280");
+        JLabel label_4 = new JLabel("Пример: 10 54 >= 7");
         label_4.setFont(new Font("Tahoma", Font.PLAIN, 18));
         label_4.setBounds(107, 79, 180, 23);
         frame.getContentPane().add(label_4);
